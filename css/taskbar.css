@@ -1,0 +1,63 @@
+.taskbar
+{
+    bottom: 0;
+    width: 100%;
+    height: 35px;
+    background-color: rgb(164, 157, 147);
+    position: fixed;
+    display: flex;
+}
+.bl-logo .wid .sift
+{
+    padding: 25px;
+    margin: 25px;
+}
+.search
+{
+    width: 153px;
+    height:100%;
+    margin-right: 20px;
+    background-color: white;
+}
+input
+{
+   height: 35px;
+    text-align: center;
+    
+}
+.wid:hover 
+{
+    background-color: darkgrey;
+    content:url("windowB.png");
+    content: start;
+    opacity: 1;
+}
+.search:hover
+{
+    border:10px;
+    border-color: black;
+    box-shadow: -3px -3px 2px blacks;
+
+}
+.sift:hover
+{
+    background-color: darkgrey;
+    content: url("sift2.png");
+}
+span
+{
+    padding-left: 55%;
+    display: flex;
+}
+.bl-logo:hover
+{
+    background-color:white;
+    height: auto;
+    width: auto;
+}
+
+   
+.wid:hover:hover .image-text
+{
+    opacity: 1;
+}

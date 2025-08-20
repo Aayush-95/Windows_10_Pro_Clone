@@ -1,0 +1,730 @@
+*{
+  cursor: default;
+  text-transform: capitalize;
+}
+a{
+  text-decoration: none;
+  color:none;
+}
+a:link{
+  color:black
+}
+a:visited{
+  color:black;
+}
+a:hover{
+  color:black;
+}
+.windowsapp{
+  height:10%;
+  width:20%;
+  display: block;
+}
+.windowsappin
+{
+  height: 33.3%;
+  width:100%;
+  align-items: center;
+  text-align: center;
+  display: flex;
+  margin: 2%;
+  
+}
+.apps
+{
+  height:90%;
+  width:40%;
+  margin: 2%;
+}
+.apps:hover
+{
+  background-color: rgba(255, 255, 255,.5);
+}
+.taskbar{
+  height:40px;
+  width:100%;
+  background-color: #d4d7db;
+  bottom: 0;
+  position: fixed;
+  display: flex;
+  left: 0;
+}
+.taskbarl
+{
+  height:90%;
+  width:40%;
+  display: flex;
+  align-items: center;
+  margin: 4px;
+  text-align: center;
+}
+.taskbarl-in
+{
+  height:90%;
+  width:auto;
+  margin:5px;
+  align-items: center;
+  display: flex;
+}
+.taskbarr
+{
+  height:90%;
+  width:40%;
+  display: flex;
+  align-items: center;
+  margin: 4px;
+  margin-left: 20%;
+  text-align: center;
+  justify-content: flex-end;
+}
+.taskbarl-in :hover
+{
+  background-color:white;               
+}
+
+.startchange:hover
+{
+  content: url("../images/windowB.png");
+  height:30px;
+  width:30px;
+  background-color: #FFFAFA;
+}
+.siftchange:hover
+{
+  content: url("../images/sift2.png");
+  height:30px;
+  width:30px;
+  background-color: #FFFAFA;
+}
+.startmenu
+{
+  height:500px;
+  width:50%;
+  background-color: gainsboro;
+  margin-top: 15%;
+   left: 0;
+  display: none;
+  justify-content: center;
+}
+.startmenu1
+{
+  height: 98%;
+  width:60px;
+  margin:2.5px;
+}
+.startmenu1up
+{
+  height: 10%;
+  width:98%;
+  align-items: center;
+  margin: 2.5px;
+  margin-bottom: 195px;
+  display: flex;
+}
+.startmenu1down
+{
+  height: 45%;
+  width: 97%;
+  align-items: center;
+  margin: 2.5px;
+  display: block;
+  justify-content: space-between;
+  
+ 
+  
+}
+.admin
+{
+  width:98%;
+  height:30%;
+  display: none;
+  justify-content: space-between;
+  box-shadow: 1px 1px 5px black;
+  border-radius: 3px;
+}
+.adminin
+{
+  width:100%;
+  height: 33.333%;
+  display: flex;
+}
+.adminl
+{
+  height:100%;
+  width:20%;
+  text-align: center;
+}
+.adminr
+{
+  height: 100%;
+  width: 75%;
+  margin-left: 1%;
+}
+.adminin:hover
+{
+  background-color:#FFFAFA;
+}
+.startmenu1:hover
+{
+  width: 40%;
+  box-shadow: 2px 2px 2px black;
+}
+.show
+{
+  margin-left: 54px;
+  height: 98%;
+  width: 100%;
+  margin: 5px;
+  display:none;
+}
+.startmenu1:hover .show
+{
+  display: block;
+}
+.startmenu1right
+{
+  margin-left: 2px;
+  width:20%;
+  height:98%;
+}
+.startmenu1down1in
+{
+  display: flex;
+}
+.startmenu1down1in:hover
+{
+  background-color:#FFFAFA ;
+}
+.startmenu1up  :hover
+{
+  background-color: #FFFAFA;
+}
+.startmenu2
+{
+  height:97%;
+  width:35%;
+  display: block;
+  margin-left: 60px;
+  margin-top: -490px;
+  justify-content: space-between;
+
+}
+.startmenu3
+{
+  height: 97%;
+  width:50%;
+  display: block;
+  margin-left:300px;
+  margin-top: -487px;
+}   
+.startmenu2in
+{
+  height:70px;
+  width:200px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  margin:10px;
+
+
+} 
+.startmenu2inl
+{
+  height:90%;
+  width:35%;
+  margin: 2px;
+  align-items: center;
+  
+
+}
+.startmenu2inr
+{
+  height: 90%;
+  width:60%;
+  align-items: center;
+  text-align: center;
+}
+.startmenu1:hover +.startmenu2
+{
+  display: none;
+}
+.startmenu2in:hover
+{
+  background-color: #FFFAFA;
+}
+.startmenu3in
+{
+  text-align: center;
+}
+.startmenu3in:hover
+{
+  text-align: center;
+  background-color: #FFFAFA;
+}
+
+.headsetting
+{
+ 
+  height:160px;
+  width: 100%;
+  display: flex;
+  background-color:#f2f2f2;
+}
+.spaninimg
+{
+  letter-spacing: 8px;
+  padding-left: 1130px;
+  top:0;
+}
+.setting-left
+{
+  height: 160px;
+  width:45%;
+}
+
+.setting-left1
+{
+  align-items: right;
+  text-align: right;  
+  width:40%; 
+  height:100%;
+}
+.setting-left2
+{
+  align-items: left;
+  text-align: left;
+  width: 57%;
+  height: 100%;
+  margin-left: 43%;
+  margin-top: -160px;
+}
+.headtask
+{
+  height:30px;
+  width:100%;
+  top:0;
+  margin-bottom: 0;
+  background-color:#f2f2f2;
+  display: flex;
+}
+.headleft
+{
+  height: 95%;
+  width:10%;
+
+  text-align: left;
+}
+.headright
+{
+  height: 100%;
+  width:15%;
+  margin-top: -2px;
+  margin-left: 75%;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+.setting-right
+{
+  height: 160px;
+  width:60%;
+
+  justify-content: space-between;
+
+  display: flex;
+}
+.search-setting
+{
+  margin-top: 15px;
+  height: 25px;
+  width: 350px;
+}
+input[type=text].settinginput
+{
+  
+  outline: none;
+}
+input[type=text].settinginput:focus
+{
+  border:3px solid lightskyblue
+}
+.setting-row1
+{
+  height:125px;
+  width:90%;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+.settingmain
+{
+  height:100%;
+  width:23%;
+  display: flex;
+}
+.settingmain:hover
+{
+  border:2px solid lightskyblue;
+}
+.setting-img
+{
+  height:100%;
+  width:25%;
+  align-items: center;
+  justify-content: center;
+}
+.setting-text
+{
+  height: 100%;
+  width:75%;
+  justify-content: center;
+  align-items: right;
+  text-align: center;
+}
+.extrasearch{
+  width:60%;
+  height:500px;
+  background-color: white;
+  display: none;
+  margin-left: 4%;
+  border:3px solid black;
+  margin-top: 20%;
+ 
+}
+.search-1row{
+  width:100%;
+  height:50px;
+  display: flex;
+  border-bottom: 1px solid black;
+}
+.search-1right{
+  width:45%;
+  height: 30px;
+  display: flex;
+  text-align: center;
+ padding:5px;
+  margin-top: 5px;
+  margin-left: 5px;
+  justify-content: space-between;
+  color: gray; 
+}
+.search-1left
+{
+  margin-top: 5px;
+  margin-left: 26%;
+  width:25%;
+  height:30px;
+  padding: 5px;
+  align-items: center;
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+}
+.search-2left
+{
+  width:50%;
+  height: 440px;
+  margin-left: -100%;
+  margin-top: 55px;
+  display: block;
+  justify-content: space-between;
+  align-items: center;
+}
+.search-2in{
+
+  height: 55px;
+  width:90%;
+  margin: 5px;
+  border-bottom: 2px solid black;
+  display: flex;
+  align-items: center;
+}
+.search-2inl{
+  height: 90%;
+  width:30%;
+  margin-left: 10%;
+}
+.search-2inr{
+height:90%;
+width:50%;
+}
+.search-2in:hover
+{
+  border-color: white;
+  box-shadow: 2px 2px 2px black inset,-2px -2px 2px black inset;
+}
+.search-2right
+{
+  width:50%;
+  height: 440px;
+  margin-top: 55px;
+  display: block;
+  justify-content: space-between;
+  align-items: center;
+}
+.search-2rightin1
+{
+  height: 50px;
+  width: 90%;
+  margin-left: 5%;
+  margin-top: 10px;
+  display: flex;
+}
+.search-2rightin2
+{
+  height: 170px;
+  width: 90%;
+  margin-top: 5px;
+}
+.search-2rightin22
+{
+        padding: 10px;
+}
+.search-2rightin3
+{
+  height :180px;
+  width: 90%;
+  margin-top: 5px;
+  display: flex;
+}
+.search-2rightin22 :hover
+{
+  box-shadow: 5px 5px 5px black,-5px -5px 5px black; 
+}
+.vsheader
+{
+  top:0;
+  height:30px;
+  width: 100%;
+  display: flex;
+  background-color:#f2f2f2;
+}
+.vsheader1
+{
+  height:80%;
+  width:30%;
+  display: flex;
+  margin: 2.7px;
+  justify-content: space-between;
+}
+.vsheader1in{
+  height:80%;
+  width:auto;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  margin: 2px;
+}
+.vsheader2
+{
+  height:80%;
+  width:35%;
+  display: flex;
+  margin: 2.7px;
+  margin-left: 5%;
+}
+.vsheader2in
+{
+  height:80%;
+  width:85%;
+  margin: 2px;
+}
+.vsheader3
+{
+  height:80%;
+  width:12%;
+  display: flex;
+  margin: 2.7px;
+  margin-left: 5%;
+  justify-content: space-between;
+}
+.vsheader3in
+{
+  height:80%;
+  width:22%;
+  margin:2px;
+  mix-blend-mode: multiply;
+  filter: contrast(1);
+  align-items: center;
+}
+.vsheader4
+{
+  height:80%;
+  width:14%;
+  margin:2px;
+  justify-content: space-between;
+  display: flex;
+  align-items: center;
+}
+.vsheader4in
+{
+  height:100%;
+  width:30%;
+  margin:1.5%;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+.vsheader1in:hover
+{
+  background-color: grey;
+}
+.vsheader2in:hover
+{
+  background-color: grey;
+}
+.vsheader3in:hover
+{
+  background-color: lightgrey;
+}
+.vsheader4in:hover
+{
+  background-color: lightgrey;
+}
+.close:hover
+{
+  background-color: red;
+  
+  
+}
+.vsmain
+{
+  height: 84%;
+  width: 100%;
+  display: flex;
+  position: fixed;
+}
+.vsmainl
+{
+  height:100%;
+  width:3%;
+  display: block;
+  background-color:#f2f2f2;
+}
+.vsmainup
+{
+  height: 55%;
+  width: 95%;
+  display: block;
+  align-items: center;
+  justify-content: center;
+}
+.vsmainupin
+{
+  height:15%;
+  width: 95%;
+  align-items: center;
+  display: block;
+  text-align: center;
+  justify-content: center;
+  margin:2%;
+}
+.vsmainr
+{
+  height: 100%;
+  width:97%;
+}
+.vsmaindown
+{
+  height:20%;
+  width:95%;
+  margin-top: 290%;
+  justify-content: space-between;
+  align-items: center;
+}
+.vsmaindownin
+{
+  height:45%;
+  width:98%;
+  margin-top:5%;
+  align-items: center;
+  text-align: center;
+}
+.vsmainr1
+{
+  height:5%;
+  width:100%;
+  display: flex;
+  background-color: lightgrey;
+}
+.vsmainr2
+{
+  height: 95%;
+  width:100%;
+}
+.vsmainr1in
+{
+  height:100%;
+  width:10%;
+  background-color: gray;
+  margin-left:5px;
+  margin-right: 5px;
+  align-items: center;
+  text-align: center;
+}
+.vsmainr1in:hover
+{
+  transition: 1s ease-in-out;
+  background-color: aliceblue;
+  color: burlywood;
+}
+.vstaskbar
+{
+  height:5%;
+  width: 100%;
+  background-color: purple;
+  position: fixed;
+  margin-top: 38%;
+  display: flex;
+  left: 0;
+}
+.vstaskbar1
+{
+  height:100%;
+  width:3.5%;
+  background-color:rgb(69, 135, 69) ;
+  text-align: center;
+}
+.vstaskbar2
+{
+  height: 100%;
+  width:20%;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  margin-left: 10px;
+}
+.vstaskbar3
+{
+  height:100%;
+  width:40%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 40%;
+}
+.vstaskbar1in
+{
+  height:90%;
+  margin-top: 5%;
+  margin-right: 5%;
+  margin-bottom: 5%;
+  width: auto;
+  text-align: center;
+  justify-content: center;
+  color: #f2f2f2;
+}
+.vstaskbar1in:hover
+{
+  background-color: white;
+  color: black;
+}
+.vsmainupin:hover
+{
+  background-color: lightgrey;
+}
+.vsmaindownin:hover
+{
+  background-color: lightgrey;
+}
