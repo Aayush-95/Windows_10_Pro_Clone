@@ -1,0 +1,112 @@
+<html>
+	<head><title>Desktop-Frame</title>	
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="css/taskbar.css">
+		<script src="js/1.js"></script>	
+	</head>
+	<body style="margin:0;">
+		<div class="maindiv">
+			<div class="maindivrow1">
+			<div class="row1tableleft">
+				<table class="row1tablel" width="100%">
+					<tr>
+						<td style="font-size:15;">
+							<img src="images/deskicon.png" height="15" width="20"></img>
+							<img src="images/arrowhalfr.png" height="14" width="14"></img>
+							<input type="text" value="Desktop" style="border: none;" class="addbar" readonly>
+						</td>
+						<td style="font-size:15;">
+							<img src="images/reseticon.png" height="18" width="18" align="right"></img>
+							<img src="images/dropdown4icon.png" height="18" width="18" align="right"></img>
+						</td>
+					</tr>
+				</table>
+			</div>
+			<div class="row1tableright">
+				<table class="row1tabler">
+					<tr>
+						<td><input type="text" placeholder="Search Here" style="border: none;" class="addbar"></td>
+						<td><img src="images/searchicon.png" height="20" width="20" align="right"></img></td>
+					</tr>
+				</table>
+			</div>
+			</div>
+			<div class="row2tablemain">
+				<table class="row2table" style="border-collapse: collapse;">
+					<tr class="row2table1tr">
+						<td>Name</td>
+						<td>Size</td>
+						<td>Item Type</td>
+						<td style="border-right:none;">Date Modified</td>
+					</tr>
+					<tr class="change1">
+						<td><img src="images/thispc3.png" height="17" width="17"></img>This PC</td>
+						<td></td>
+						<td></td>
+						<td></td>
+					</tr>
+					<tr class="change1">
+						<td><img src="images/recyclebin.png" height="17" width="17"></img>Recycle Bin</td>
+						<td></td>
+						<td></td>
+						<td></td>
+					</tr>
+					<tr class="change1">
+						<td><img src="images/calculator.png" height="17" width="17"></img>Calculator</td>
+						<td></td>
+						<td></td>
+						<td></td>
+					<tr>
+					<tr class="change1">
+						<td><img src="images/vscodeicon.png" height="17" width="17"></img>Visual Studio Code</td>
+						<td>18,322 KB</td>
+						<td>Application</td>
+						<td>7/7/2019 5:45 PM
+</td>
+					<tr>
+					<tr>
+				</table>
+			</div>
+		</div>
+
+
+
+
+
+
+
+
+
+
+
+		
+	</body>
+	<style>
+			body {font-family:Segoe UI;}
+			.maindiv {width:100%;}
+				.maindivrow1 {display:flex;width:100%;}
+			.row1tableleft {width:80%;margin-right:1%;border:1px solid lightgrey;}
+				.row1tablel {align-content:left;}
+		
+				.row1tabler {border:1px solid lightgrey;}
+			.row2tablemain {padding-top:1%;}
+				.row2table {width:100%;}
+				.row2table1tr td {color:darkgrey;border-right:1px solid grey;padding-bottom:0.5%;padding-left:0.5%;}
+				.row2table1tr td:hover {background-color:lightgrey;} 
+				.row2table td {text-align:left;}
+			.change1:hover {background-color: lightblue;border:2px solid lightblue;}
+		input.addbar	
+			{
+				height:100%;
+				width:90%;
+				border-color:transparent;
+				outline:none;
+				text-align:left;
+			}
+		input.addbar:focus
+			{
+				outline:none;
+			}
+		</style>
+</html>
