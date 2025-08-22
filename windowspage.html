@@ -1,0 +1,545 @@
+<html>
+	<head><title>WindowsPage</title>	
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="css/1.css">
+		<link rel="icon" type="image/x-icon" href="thispc.jpg">
+		<script src="js/1.js"></script>
+		<title>my pc</title>	
+	</head>
+	<body bgcolor="white">
+	
+		<div class="row1"><!--1st pane-->
+			<table class="rowtable1l">
+				<tr>
+					<td><img src="images/documenttickicon.png" id="profile" height="15" width="15"></td>
+					<td><img src="images/foldericon.png" height="17" width="19"></td>
+					<td><img src="images/dropdown2icon.png" height="11" width="10"> |</td>
+				</tr>
+			</table>	
+			<table class="rowtable1r">
+				<tr>
+					<td class="minimize">
+						<a href="index2.html">
+							<img class="maximize" src="images/minimizeicon.png" height="15" width="16" align="right"
+							style="padding-right:10px;padding-left:10px">
+						</a>
+					</td>
+					<td class="minimize">
+						<a href="">
+							<img class="maximize" src="images/maximizeicon.jpg" height="13" width="13" align="right"
+							style="padding-right:10px;padding-left:10px">
+						</a>
+					</td>
+					<td class="closetable">
+						<a href="index2.html">
+							<img class="close" src="images/closeicon.png" height="15" width="16" align="right"
+							style="padding-right:10px;padding-left:10px">
+						</a>
+					</td>
+				</tr>
+			</table><br>
+		</div>
+		
+		<div class="row2"><!--2nd pane-->
+			<table class="rowtable2l">
+				<tr>
+					<td>File</td>
+					<td>Home</td>
+					<td>Share</td>
+					<td>View</td>
+					<td>Search</td>
+					<td>Recycle Bin Tools</td>
+				</tr>
+			</table>
+			<table class="rowtable2r">
+				<tr>
+					<td><img src="images/dropdownicon.png" height="18" width="18"></td>
+					<td><img src="images/helpicon.png" height="18" width="18"></td>
+				</tr>
+			</table><br>
+		</div>
+		
+		<div class="row3"><!--3rd pane-->
+			<table class="rowtable3l">
+				<tr>
+					<td><img src="images/arrowlicon.png" height="20" width="15"></td>
+					<td><img src="images/arrowricon.png" height="20" width="15"></td>
+					<td><img src="images/dropdown3icon.png" height="15" width="15"></td>
+					<td><img src="images/arrowticon.png" height="15" width="20"></td>
+				</tr>
+			</table>
+		</div>
+		
+		<div class="iframedivl">
+			<table style="border-collapse: collapse;">
+				<tr class="change" onclick="recyclebin()">
+					<td class="l">
+						<a href="recyclebinframe.html" target="mainFrame">
+							<img src="images/recyclebinfullicon2.jpg" height="25" width="30">
+						</a>
+					</td>
+					<td class="r" >
+						<a href="recyclebinframe.html" target="mainFrame" >
+							Recycle Bin
+						</a>
+					</td>
+				</tr>
+				<tr class="change" onclick="desktop()">
+					<td class="l">
+						<a href="desktopframe.html" target="mainFrame">
+							<img src="images/deskicon.png" height="20" width="30">
+						</a>
+					</td>
+					<td class="r">
+						<a href="desktopframe.html" target="mainFrame">
+							Desktop
+						</a>
+					</td>
+				</tr>
+				<tr class="change" onclick="download()">
+					<td class="l">
+						<a href="downloadsframe.html" target="mainFrame">
+							<img src="images/downloadicon.png">
+						</a>
+					</td>
+					<td class="r">
+						<a href="downloadsframe.html" target="mainFrame">
+							Downloads
+						</a>
+					</td>
+				</tr>
+				<tr class="change" onclick="documents()">
+					<td class="l">
+						<a href="documentsframe.html" target="mainFrame">
+							<img src="images/documentsicon.png" height="20" width="22">
+						</a>
+					</td>
+					<td class="r">
+						<a href="documentsframe.html" target="mainFrame">
+							Documents
+						</a>
+					</td>
+				</tr>
+				<tr class="change" onclick="pictures()">
+					<td class="l" >
+						<a href="picturesframe.html" target="mainFrame">
+							<img src="images/picturesicon.png" height="16" width="23">
+						</a>
+					</td>
+					<td class="r">
+						<a href="picturesframe.html" target="mainFrame">
+							Pictures
+						</a>
+					</td>
+				</tr>
+				<tr class="change" onclick="thispc()">
+					<td class="l">
+						<a href="mypcframe.html" target="mainFrame">
+							<img src="images/thispc.jpg" height="25">
+						</a>
+					</td>
+					<td class="r">
+						<a href="mypcframe.html" target="mainFrame">
+							This Pc
+						</a>
+					</td>
+				</tr>
+			</table>
+			<table style="margin-left:16px; border-collapse: collapse;">
+				<tr class="change" onclick="localdiskc()">
+					<td class="l">
+						<a href="localdiskcframe.html" target="mainFrame">
+							<img src="images/localdiskcicon.jpg" height="25">
+						</a>
+					</td>
+					<td class="r">
+						<a href="localdiskcframe.html" target="mainFrame">
+							Local Disk:(C)
+						</a>
+					</td>
+				</tr>
+				<tr class="change" onclick="localdiskd()">
+					<td class="l">
+						<a href="localdiskdframe.htmll" target="mainFrame">
+							<img src="images/localdiskdicon.jpg" height="25">
+						</a>
+					</td>
+					<td class="r">
+						<a href="localdiskdframe.html" target="mainFrame">
+							Local Disk:(D)
+						</a>
+					</td>
+				</tr>
+			</table>
+		</div>
+		
+		<div class="iframedivr">
+			<iframe src="" name="mainFrame"></iframe>
+		</div>
+		
+		<div class="taskbar">
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					<img src="images/window.png" class="wid"><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+				<div class="search">
+					<input type="text" placeholder="Type here to search" class="searchbar">
+				</div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					<img src="images/sift1.png" class="sift">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					<img src="images/fe.png" class="bl-logo">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					<img src="images/ms.png" class="bl-logo">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+				<span>
+					<img src="images/up.png" class="bl-logo">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					<time datetime="2017-02-14" class="bl-logo">10:50 A.M<br>2017/02/14 </time>  
+				</span>
+		</div>
+
+
+
+
+
+
+
+
+
+
+
+		
+    <!--for start menu -->
+    <div class="startmenu" id="start" style="display: none;">
+   
+		<div class="startmenu1">
+			<div class="startmenu1up" id="upside">
+				<div class="startmenu1right">  <img src="images/start.png" alt="" height="40px" width="40px"></div>
+				<div class="show">Start</div>      
+			</div>
+			<div class="admin" id="adminmore">
+					<div class="adminin">
+						<div class="adminl"> <img src="images/admin.png" alt="" height="30px" width="30px"></div>
+						<div class="adminr">change account setting</div>
+					</div>
+					<div class="adminin">
+						<div class="adminl"><img src="images/lock.png" alt=""height="30px" width="30px"></div>
+						<div class="adminr">lock</div>
+					</div>
+					<div class="adminin">
+						<div class="adminl"><img src="images/signo.png" alt="" height="30px" width="30px"></div>
+						<div class="adminr">sign out</div>
+					</div>
+			</div>
+			<div class="startmenu1down">
+				<div class="startmenu1down1in" onclick="admin()">
+					<div class="startmenu1right"><img src="images/admin.png" alt="" height="40px" width="40px"></div>
+					<div class="show"> admin</div>
+				</div>
+				<div class="startmenu1down1in">   
+					<div class="startmenu1right"> <img src="images/document.png" alt="" height="40px" width="40px"></div>
+					<div class="show"> document</div>
+				</div>
+				<div class="startmenu1down1in">
+				  <div class="startmenu1right"> <img src="images/picture.png" alt="" height="40px" width="40px"></div>
+				  <div class="show">picture</div>
+				</div>
+				<div class="startmenu1down1in">
+					<div class="startmenu1right"><a href="setting.html"><img src="images/setting.png" alt="" height="40px" width="40px"></a></div>
+					<div class="show"><a href="setting.html"> setting </a></div>
+				</div>
+				<div class="startmenu1down1in">
+				 <div class="startmenu1right"> <img src="images/power.png" alt="" height="40px" width="40px"></div>
+				 <div class="show"> power</div>
+				 </div>
+			</div>
+			
+		</div>
+	   
+		<div class="startmenu2">
+			<div class="startmenu2in"> recently <br>added</div>
+			<center>
+			 <div class="startmenu2in">
+				<div class="startmenu2inl"><br> <img src="images/thispc.jpg" alt="" height="30px" width="30px"></div>
+				<div class="startmenu2inr"> <br>this pc</div>
+			  </div>
+			 <div class="startmenu2in">
+				<div class="startmenu2inl"><br><img src="images/calculator.png" alt="" height="30px" width="30px"></div>
+				<div class="startmenu2inr"> <br>calculator</div>
+			 </div>
+			 <div class="startmenu2in">
+				<div class="startmenu2inl"><br><img src="images/fe.png" alt="" height="30px" width="30px"></div>
+				<div class="startmenu2inr"> <br> java development</div>
+			 </div>
+			 <div class="startmenu2in">
+				<div class="startmenu2inl"> <br> <img src="images/vlc.png" alt="" height="30px" width="30px"></div>
+				<div class="startmenu2inr"> <br>vlc </div>
+			 </div>
+			 <div class="startmenu2in">
+				<div class="startmenu2inl"><a href="vs code.html"><br><img src="images/vs.png" alt="" height="30px" width="30px"></a></div>
+				<div class="startmenu2inr"><a href="vs code.html"><br>vs code </a></div>
+			 </div>
+			</center> 
+		</div>
+		  <div class="startmenu3">
+			<div>
+				<table align="center" >
+			   <tr>
+					<td class="startmenu3in" > <img src="images/office.png" alt=""><br>Office</td>
+					<td class="startmenu3in"  ><img src="images/solo.png" alt=""><br>Solitaire</td>
+					<td class="startmenu3in" ><img src="images/li.png" alt=""><br>Linkedin</td>
+			   </tr>
+			   <tr>
+					<td class="startmenu3in" ><img src="images/ch.png" alt=""><br>Chrome</td>
+					<td class="startmenu3in" ></td>
+					<td class="startmenu3in" ><img src="images/ms.png" alt=""><br>Microsoft </td>
+			   </tr>
+				</table><br><br>
+				<table style="margin: top 10px;" align="center">
+					<tr align="center" class="startmenu3in">
+						<th class="startmenu3in">ROLL-NO</th>
+						<th class="startmenu3in">NAME</th>
+					</tr>
+					<tr align="center" class="startmenu3in" >
+						<td>376</td>
+						<td>Aayush Amitbhai Bhavsar</td>
+					</tr>
+					<tr align="center" class="startmenu3in">
+						<td>400</td>
+						<td>Dhwanit Girishbhai Khatri</td>
+					</tr>
+					<tr align="center" class="startmenu3in">
+						<td>408</td>
+						<td>Yug Nalinkumar Panchal</td>
+					</tr>
+				</table>
+				<table align="center" style="margin-top: 20px;">
+					<tr class="startmenu3in" >
+						<th>project name</th>
+						<th>windows OS clone</th>
+					</tr>
+				</table>
+			</div>
+		  </div>
+  
+</div>
+<!--start menu gets over-->
+<!--for search bar extra space start-->
+<div class="extrasearch" id="searchmore">
+	
+<div class="search-1row">
+	<div class="search-1right">
+		<div>All <br><hr width="100%" color="#0078D7" size="5">   </div>
+		<div>Apps</div>
+		<div>Document</div>
+		<div>Web</div>
+		<div>More</div>
+	</div>
+	<div class="search-1left">
+		<div><img src="images/medal.png" alt=""></div>
+		<div><img src="images/N.png" alt=""> </div>
+		<div> <img src="images/3dots.png" alt=""></div>
+		<div><img src="close.png " alt="" onclick="searchmore()"></div>
+	</div>
+</div>
+<div class="search-2left">
+<span style="margin-left: 10px;">suggested</span>
+
+	<div class="search-2in">
+		<div class="search-2inl"> <img src="images/edge.png" alt=""></div>
+		<div class="search-2inr"> <br>Microsoft edge</div>
+	</div>
+	<div class="search-2in">
+		<div class="search-2inl"> <img src="images/email.png" alt=""></div>
+		<div class="search-2inr"> <br> email</div>
+	</div>
+	<div class="search-2in">
+		<div class="search-2inl"> <img src="images/snippingtool.png" alt=""></div>
+		<div class="search-2inr"> <br>snipping tool</div>
+	</div>
+	<div class="search-2in">
+		<div class="search-2inl"> <img src="images/update.png" alt=""></div>
+		<div class="search-2inr"><br>check for update</div>
+	</div>
+	<div class="search-2in">
+		<div class="search-2inl"> <img src="images/calculator.png" alt=""></div>
+		<div class="search-2inr"><br>calculator</div>
+	</div>
+	<div class="search-2in">
+		<div class="search-2inl"> <img src="images/fe.png" alt=""></div>
+		<div class="search-2inr"><br> file explorer</div>
+	</div>
+
+
+</div>
+<div class="search-2right">
+
+	<div class="search-2rightin1">
+		<div><img src="images/left.png" alt=""  style="border-radius: 50%; background-color: black;"> &nbsp; &nbsp; </div>
+		<div style="margin-top: 5px;"> 13 mar</div>&nbsp; &nbsp; 
+		<div><img src="images/right.png" alt="" style="border-radius: 50%; background-color: black;"></div>
+	</div>
+	<center>
+	<div class="search-2rightin2">
+	<div class="search-2rightin22"> <img src="images/lion.jpg" alt="" height="160px"width="315px"  style="border-radius: 4%;"></div>
+	</div>
+	<div class="search-2rightin3">
+		<div class="search-2rightin22"><img src="images/spiderman.jpg" alt="" style="height: 160px; width:155px; border-radius:4% ;"></div>
+		<div class="search-2rightin22"> <img src="images/warcry.jpg" alt="" style="height: 160px; width:155px; border-radius:4% ;"></div>
+	</div>
+ </center>
+
+</div>
+</div>
+<!--for search bar extra spce over -->
+<!--for task bark-->
+<div class="taskbar">
+	<div class="taskbarl">
+		<div class="taskbarl-in startchange" onclick="win()"> <img src="images/window.png" alt="" height="30px" width="30px" ></div>
+		<div class="taskbarl-in " onclick="searchmore()"><img src="images/search.png" alt="" height="30px" width="30px"><input type="text" style="width: 300px;height: 90%; border-color: lightskyblue;"></div>
+		<div class="taskbarl-in siftchange"> <img src="images/sift1.png" alt="" height="30px" width="30px"></div>
+		<div class="taskbarl-in"> <img src="images/fe.png" alt="" height="30px" width="30px"></div>
+		<div class="taskbarl-in"><img src="images/ms.png" alt="" height="30px" width="30px"></div>
+	</div>
+	<div class="taskbarr">
+		<div class="taskbarl-in"> <img src="images/up.png" alt="" height="30px" width="30px"></div>
+		<div class="taskbarl-in"> <img src="images/nowifi.png" alt="" height="30px" width="30px"></div>
+		<div class="taskbarl-in problem"  > ENG <br>IN</div>
+		<div class="taskbarl-in problem" > 10:50AM <br>13/3/2024</div>
+		<div class="taskbarl-in"> <img src="images/noti.png" alt="" height="30px" width="30px"></div>
+	</div>
+
+</div>
+
+</div>
+<!--here taskar gets over -->
+<script src="js/1.js"></script>
+	</body>
+		<style>
+			.rowtable1l 
+				{
+					position:absolute;
+					left:0;
+				}
+					
+			.rowtable1r 
+				{
+					position:absolute;
+					right:0;
+				}
+					
+			.close:hover 
+				{
+					background-color: red;
+				}
+					
+			.closetable:hover 
+				{
+					background-color: red;
+				}
+					
+			.maximize:hover 
+				{
+					background-color:lightgrey;
+				}
+					
+			.minimize:hover 
+				{
+					background-color:lightgrey;
+				}
+					
+			.row2 
+				{
+					padding-top:1%;
+				}
+				
+			table.rowtable2l 
+				{
+					position:absolute;
+					left:0;
+					font-family:Segoe UI;
+					font-size:15;
+				}
+					
+			table.rowtable2l td 
+				{
+					padding-left:12;
+					padding-right:12;
+				}
+					
+			table.rowtable2l td:hover 
+				{
+					background-color:#1e81b0;
+					color:white;
+				}
+					
+			.rowtable2r 
+				{
+					position:absolute;
+					right:0;
+				}
+					
+			.row3 
+				{
+					padding-top:1%;
+				}
+				
+			.rowtable3l 
+				{
+					left:0;
+					width:15.2%;
+				}
+					
+			.rowtable3l td 
+				{
+					padding-left:7;
+					padding-right:7;
+					text-align:center;
+				}
+					
+			.iframedivl 
+				{
+					padding-top:0%;
+				}
+				
+			.iframedivl 
+				{
+					font-family: 'Segoe UI';
+					height:80%;
+					width:15%;
+					border-right:1px solid darkwhite;
+					border-left:0px transparent;
+					border-top:0px transparent;
+					border-bottom:0px transparent;
+				}
+				
+			td.l 
+				{
+					text-align:center;
+				}
+
+			td.r 
+				{
+					text-align:left;
+				}
+
+			.change:hover 
+				{
+					background-color: lightblue;
+					border:2px solid lightblue;
+				}	
+
+			.iframedivr 
+				{
+					margin-left:15.5%;
+					margin-top:-40%;
+				}
+				
+			.iframedivr iframe 
+				{
+					height:84%;width:100%;
+					border:0px transparent;
+				}
+				
+				@media only screen and (max-width: 1440px) {
+					.iframedivr{
+							margin-top: -38%;
+  }
+}
+		</style>
+</html>

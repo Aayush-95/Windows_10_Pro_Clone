@@ -1,0 +1,110 @@
+<html>
+	<head><title>Recycle Bin</title>	
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="css/taskbar.css">
+		<style>
+			.row1 {}
+				.rowtable1l {position:absolute;left:0;}
+				.rowtable1r {position:absolute;right:0;}
+				.close:hover {background-color: red;}
+				.closetable:hover {background-color: red;}
+				.maximize:hover {background-color:lightgrey;}
+				.minimize:hover {background-color:lightgrey;}
+			.row2 {padding-top:1%;}
+				table.rowtable2l {position:absolute;left:0;font-family:Segoe UI;font-size:15;}
+				table.rowtable2l td {padding-left:12;padding-right:12;}
+				table.rowtable2l td:hover {background-color:#1e81b0;color:white;}
+				.rowtable2r {position:absolute;right:0;}
+			.row3 {padding-top:1%;}
+				.rowtable3l {left:0;width:15.2%;}
+				.rowtable3l td {padding-left:7;padding-right:7;text-align:center;}
+			.iframedivl {padding-top:0%;}
+				.iframedivl iframe {height:80%;width:15%;border-right:1px solid darkwhite;
+				border-left:0px transparent;border-top:0px transparent;border-bottom:0px transparent;}
+			.iframedivr {margin-left:15.5%;margin-top:-40%;}
+				.iframedivr iframe {height:84%;width:100%;border:0px transparent;}
+		</style>
+	</head>
+	<body bgcolor="white">
+		<div class="row1"><!--1st pane-->
+			<table class="rowtable1l">
+				<tr>
+					<td><img src="images/recyclebinfullicon2.jpg" height="20" width="23"> |</td>
+					<td><img src="images/documenttickicon.png" height="15" width="15"></td>
+					<td><img src="images/foldericon.png" height="17" width="19"></td>
+					<td><img src="images/dropdown2icon.png" height="11" width="10"> |</td>
+				</tr>
+			</table>	
+			<table class="rowtable1r">
+				<tr>
+					<td class="minimize">
+						<a href="index.html">
+							<img class="maximize" src="images/minimizeicon.png" height="15" width="16" align="right"
+							style="padding-right:10px;padding-left:10px">
+						</a>
+					</td>
+					<td class="minimize">
+						<a href="">
+							<img class="maximize" src="images/maximizeicon.jpg" height="13" width="13" align="right"
+							style="padding-right:10px;padding-left:10px">
+						</a>
+					</td>
+					<td class="closetable">
+						<a href="index.html">
+							<img class="close" src="images/closeicon.png" height="15" width="16" align="right"
+							style="padding-right:10px;padding-left:10px">
+						</a>
+					</td>
+				</tr>
+			</table><br>
+		</div>
+		<div class="row2"><!--2nd pane-->
+			<table class="rowtable2l">
+				<tr>
+					<td>File</td>
+					<td>Home</td>
+					<td>Share</td>
+					<td>View</td>
+					<td>Search</td>
+					<td>Recycle Bin Tools</td>
+				</tr>
+			</table>
+			<table class="rowtable2r">
+				<tr>
+					<td><img src="images/dropdownicon.png" height="18" width="18"></td>
+					<td><img src="images/helpicon.png" height="18" width="18"></td>
+				</tr>
+			</table><br>
+		</div>
+		<div class="row3"><!--3rd pane-->
+			<table class="rowtable3l">
+				<tr>
+					<td><img src="images/arrowlicon.png" height="20" width="15"></td>
+					<td><img src="images/arrowricon.png" height="20" width="15"></td>
+					<td><img src="images/dropdown3icon.png" height="15" width="15"></td>
+					<td><img src="images/arrowticon.png" height="15" width="20"></td>
+				</tr>
+			</table>
+		</div>
+		<div class="iframedivl">
+			<iframe src="pcdata.html"></iframe><br>
+		</div>
+		<div class="iframedivr">
+			<iframe src="recyclebinframe.html"></iframe>
+		</div>
+		<div class="taskbar">
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			<img src="images/window.png" class="wid"><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+				<div class="search">
+					<input type="text" placeholder="Type here to search" class="searchbar">
+				</div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					<img src="images/sift1.png" class="sift">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					<img src="images/fe.png" class="bl-logo">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					<img src="images/ms.png" class="bl-logo">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+				<span><img src="images/up.png" class="bl-logo">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					<time datetime="2017-02-14" class="bl-logo">10:50 A.M<br>2017/02/14 </time>  
+				</span>
+		</div>
+	</body>
+</html>
