@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <textarea  cols="10000" rows="100" style="border-color: transparent;">
+        function win() {
+    
+            let wiElement = document.getElementById('start');
+            if (wiElement.style.display === "none" || wiElement.style.display === "") {
+                wiElement.style.display = "block";
+            } else {
+                wiElement.style.display = "none";
+                
+            }
+        }
+        function admin()
+        {
+            let adminmoreE=document.getElementById("adminmore");
+            if(adminmoreE.style.display ==="none" ||adminmoreE ===""){
+                adminmoreE.style.display="flex";
+            }
+            else{
+                adminmoreE.style.display="none";
+            }
+        }
+        function searchmore()
+        {
+          
+            let search=document.getElementById("searchmore");
+            if(search.style.display ==="none" ||search ===""){
+                search.style.display="flex";
+            }
+            else{
+                search.style.display="none";
+            }
+        }
+    </textarea>
+</body>
+</html>
